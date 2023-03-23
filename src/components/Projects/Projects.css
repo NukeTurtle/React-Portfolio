@@ -1,0 +1,25 @@
+#projects{
+    background-color:#363636;
+    color: white;
+    text-align: center;
+}
+.projects-container{
+    display: flex;
+    flex-direction: column;
+}
+#projects .card{
+    text-align: left;
+    background-color: #393939;
+    padding: 15px 5%;
+    margin-bottom: 10px;
+}
+#projects .card:hover{
+    background: #fff;
+    color: var(--dark_text);
+}
+#projects .dark-card{
+    background-color: #333333;
+}
+#projects img{
+    width: 100%;
+}

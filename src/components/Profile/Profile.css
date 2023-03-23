@@ -1,0 +1,18 @@
+.profile{
+    background-image: url(../../img/elvis.png);
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 0 120px 150px 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+.profile_image{
+    background: url(../../img/back_image5.jpg) white;
+    background-size: cover;
+    background-position-y: center;
+    height: 300px;
+    filter: saturate(0);
+}

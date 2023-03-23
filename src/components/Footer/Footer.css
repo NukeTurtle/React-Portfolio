@@ -1,0 +1,51 @@
+footer{
+    text-align: center;
+    padding: 10%;
+}
+#socials{
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+}
+#socials i::before {
+    font-size: 1.5em;
+}
+#socials a{
+    margin: 5%;
+    margin: 0 auto;
+}
+.fa-regular::before, .fab::before {
+    color: #d4d4d4;
+    font-size: 2em;
+}
+button{
+    padding: 10px;
+}
+
+/*styling desktop*/
+@media only screen and (min-width: 800px) {
+    .toggle {
+        width:30%;
+    }
+    section{
+        padding: 5% 15%;
+    }
+    #bio img{
+        width: 100%;
+        margin-left: 0;
+    }
+    #projects{
+        padding: 5%;
+    }
+    #contact_form h1{
+        font-size: 2em !important;
+    }
+    .projects-row{
+        display: flex;
+        flex-direction: row;
+    }
+    .projects-column{
+        display: flex;
+        flex-direction: column;
+    }
+}

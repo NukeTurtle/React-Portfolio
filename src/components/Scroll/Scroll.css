@@ -1,0 +1,24 @@
+.scroll_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--medium_text);
+    position: absolute;
+    bottom: 20px;
+    cursor: default;
+}
+.arrow {
+    display: flex;
+}
+.left_arrow {
+    border-left: 1px var(--medium_text) solid;
+    transform: rotate(315deg);
+    height: 30px;
+    width: 12px;
+}
+.right_arrow {
+    border-right: 1px var(--medium_text) solid;
+    transform: rotate(45deg);
+    height: 30px;
+    width: 12px;
+}

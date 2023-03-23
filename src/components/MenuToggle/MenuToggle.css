@@ -1,0 +1,59 @@
+.menu {
+    background-color: var(--background);
+    width: 80%;
+    max-width: 500px;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    transition-duration: 0.5s;
+}
+.menu_list {
+    display: none;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.menu_list a:nth-child(4) li {
+    background: rgba(0,0,0,0.7);
+}
+.menu_list a li {
+    list-style: none;
+    box-shadow: -2px 1px 2px;
+    text-align: left;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: rgba(0,0,0,.8);
+}
+.menu_list a li:hover {
+    background: var(--link-secondary) !important;
+}
+.menu_list i[class^="fa"]{
+    font-size: 1.5em;
+    padding: 1em;
+    vertical-align: middle;
+}
+.menu_list i[class^="fa"]::before{
+    font-size: 1em;
+}
+a {
+    text-decoration: none;
+    color: var(--medium_text);
+}
+.hamburger_menu {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    width: 30px;
+}
+.menu_lines {
+    display: flex;
+    flex-direction: column;
+}
+.line {
+    border-bottom: 2px var(--medium_text) solid;
+    width: 30px;
+    height: 5px;
+}
