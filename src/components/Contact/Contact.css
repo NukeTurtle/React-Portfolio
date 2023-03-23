@@ -2,8 +2,8 @@
     background-color: var(--light_text);
     text-align: center;
     padding: 10%;
-    height: 10hv;
 }
 #contact_form button{
     cursor: pointer;
+    margin-top: 15px;
 }
